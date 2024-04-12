@@ -1,4 +1,5 @@
 // components/edit.js
+// components/edit.js
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router";
 import Navbar from './navbar';
@@ -64,7 +65,7 @@ export default function Edit() {
       },
     });
 
-    navigate("/");
+    navigate("/recordList");
   }
 
   // This following section will display the form that takes input from the user to update the data.
